@@ -1,0 +1,74 @@
+.container {
+  padding: 6rem 2rem;
+  background-color: #ffffff; /* Putih bersih */
+  min-height: 100vh;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem; /* Jarak antar item */
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row; /* Desktop: gambar dan teks sejajar */
+  }
+}
+
+.text {
+  flex: 1;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000; /* Hitam full, kayak section tengah */
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.125rem;
+  color: #4b5563; /* abu-abu, lebih kalem */
+  line-height: 1.6;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 90%;
+  height: auto;
+  border-radius: 12px;
+  margin: 0 auto; 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Buat nambah class reverse */
+.flexRowReverse {
+  flex-direction: column-reverse;
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .flexRowReverse {
+    flex-direction: row-reverse;
+  }
+}

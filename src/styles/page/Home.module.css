@@ -1,0 +1,88 @@
+.hero-section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.hero-heading {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-button {
+  background-color: #f97316;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-size: 1.125rem;
+  transition: background-color 0.2s ease;
+}
+
+.hero-button:hover {
+  background-color: #ea580c;
+}
+
+.section-tengah {
+  min-height: 100vh;
+  background-color: white;
+  padding: 2rem;
+}
+
+.section-tengah-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.section-tengah-image {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.section-tengah-text {
+  width: 100%;
+}
+
+.section-tengah-heading {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section-tengah-description {
+  font-size: 1.125rem;
+  color: #4b5563;
+}
+
+.section-bawah {
+  min-height: 100vh;
+  background-color: white;
+  padding: 2rem;
+}
+
+.section-bawah-heading {
+  font-size: 1.875rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.section-bawah-description {
+  font-size: 1.125rem;
+  color: #4b5563;
+}
