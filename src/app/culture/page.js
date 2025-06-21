@@ -32,7 +32,15 @@ const culinaryData = [
 ];
 
   return (
-    <section className="min-h-screen bg-white p-8 mt-[60px]">
+    <section className="relative min-h-screen p-8 mt-[60px]">
+      <video
+        src="/video/banda-neira.mp4" // Pastikan file ini ada di public/videos
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover -z-20"
+      />
       <div className="max-w-6xl mx-auto space-y-24">
         <h1 className="text-4xl font-bold text-center text-black mb-12">
           Culture Banda Neira
